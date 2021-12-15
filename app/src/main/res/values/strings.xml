@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">Friendly Debts</string>
+    <string name="totalDebtTextView">Total Debt: </string>
+    <string name="fabDescription">Floating Action Button</string>
+    <string name="change_profile">Change Profiles</string>
+    <string name="new_profile">New Profile</string>
+    <string name="rename_profile">Rename Profile</string>
+    <string name="summarize_debts">Summarize Debts</string>
+    <string name="clear_debts">Clear Debts</string>
+    <string name="delete_profile">Delete Profile</string>
+    <string name="export_profile">Export Profile</string>
+    <string name="about">About</string>
+    <string name="change_dialog_title">Change Profile</string>
+    <string name="add_debt_dialog_title">Add Debt</string>
+    <string name="confirm">Okay</string>
+    <string name="cancel">Cancel</string>
+    <string name="edit_debt_dialog_title">Edit Debt</string>
+    <string name="rename_profile_dialog_title">Rename Profile</string>
+    <string name="create_new_profile_dialog_title">New Profile</string>
+    <string name="default_profile_name">New Profile</string>
+    <string name="temp">temp</string>
+    <string name="summarize_debts_note">Summary</string>
+    <string name="about_dialog_title">About</string>
+    <string name="selection_delete">Delete</string>
+    <string name="selection_summarize">Summarize</string>
+    <string name="invalid_input">Invalid Input!</string>
+    <string name="error">Error</string>
+    <string name="hint_amount">Amount</string>
+    <string name="hint_note">Note</string>
+</resources>

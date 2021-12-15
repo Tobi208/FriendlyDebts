@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+      xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+id/action_change_profile"
+        android:icon="@drawable/menu_change_profile_svg"
+        android:title="@string/change_profile"
+        app:showAsAction="ifRoom" />
+
+    <item android:id="@+id/action_new_profile"
+        android:title="@string/new_profile"
+        app:showAsAction="never"/>
+
+    <item android:id="@+id/action_rename_profile"
+        android:title="@string/rename_profile"
+        app:showAsAction="never"/>
+
+    <item android:id="@+id/action_delete_profile"
+        android:title="@string/delete_profile"
+        app:showAsAction="never"/>
+
+    <item android:id="@+id/action_summarize_debts"
+        android:title="@string/summarize_debts"
+        app:showAsAction="never"/>
+
+    <item android:id="@+id/action_clear_debts"
+        android:title="@string/clear_debts"
+        app:showAsAction="never"/>
+
+    <item android:id="@+id/action_about"
+        android:title="@string/about"
+        app:showAsAction="never"/>
+
+    <item android:id="@+id/action_selection_summarize"
+        android:title="@string/selection_summarize"
+        app:showAsAction="never"
+        android:visible="false" />
+
+    <item android:id="@+id/action_selection_delete"
+        android:title="@string/selection_delete"
+        app:showAsAction="never"
+        android:visible="false" />
+
+</menu>

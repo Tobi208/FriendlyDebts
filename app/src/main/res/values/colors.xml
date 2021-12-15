@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="fd_light_grey">#FFC8C8C8</color>
+    <color name="fd_light_grey_dark">#80C8C8C8</color>
+    <color name="fd_dark_grey">#FF121212</color>
+    <color name="fd_dark_grey_light">#FF202020</color>
+    <color name="fd_purple">#FFBB86FC</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+</resources>

@@ -1,0 +1,68 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <style name="Theme.FriendlyDebts" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Header -->
+        <item name="colorPrimary">@color/fd_dark_grey</item>
+
+        <!-- Background -->
+        <item name="android:colorBackground">@color/fd_dark_grey_light</item>
+
+        <!-- TextView -->
+        <item name="android:textColor">@color/fd_light_grey</item>
+
+        <!-- EditText -->
+        <item name="android:textColorPrimary">@color/fd_light_grey</item>
+
+        <!-- FAB Icon -->
+        <item name="colorOnSecondary">@color/fd_dark_grey</item>
+
+        <!-- Cursor, Active Underline -->
+        <item name="colorAccent">@color/fd_purple</item>
+
+        <!-- Inactive Underline -->
+        <item name="android:textColorSecondary">@color/fd_light_grey</item>
+
+        <!-- EditTextHint -->
+        <item name="android:textColorHint">@color/fd_light_grey_dark</item>
+
+        <!-- Theme and Style -->
+        <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimary</item>
+        <item name="actionOverflowMenuStyle">@style/fd_Options_Menu</item>
+        <item name="android:alertDialogTheme">@style/fd_Alert_Dialog</item>
+        <item name="android:datePickerDialogTheme">@style/fd_Date_Picker_Dialog</item>
+        <item name="floatingActionButtonStyle">@style/fd_FloatingActionButton</item>
+        <!-- Unused but cannot delete -->
+        <item name="colorPrimaryVariant">@color/fd_dark_grey</item>
+    </style>
+
+    <style name="fd_Options_Menu" parent="Widget.AppCompat.PopupMenu.Overflow">
+        <item name="android:popupBackground">@color/fd_dark_grey</item>
+    </style>
+
+    <style name="fd_Alert_Dialog" parent="Theme.AppCompat.Light.Dialog.Alert">
+        <!-- Trial and Error -->
+        <item name="android:textColor">@color/fd_purple</item>
+        <item name="android:textColorPrimary">@color/fd_light_grey</item>
+        <item name="android:textColorSecondary">@color/fd_purple</item>
+        <item name="colorControlActivated">@color/fd_purple</item>
+        <item name="colorControlHighlight">@color/fd_purple</item>
+        <item name="android:windowBackground">@color/fd_dark_grey_light</item>
+    </style>
+
+    <style name="fd_Date_Picker_Dialog" parent="Theme.AppCompat.Light.Dialog.Alert">
+        <!-- https://www.tutorialsbuzz.com/2019/09/android-datepicker-dialog-styling-kotlin.html -->
+        <item name="colorAccent">@color/fd_purple</item>
+        <item name="android:textColor">@color/fd_purple</item>
+        <item name="android:textColorPrimary">@color/fd_light_grey</item>
+        <item name="android:textColorPrimaryInverse">@color/white</item>
+        <item name="android:textColorSecondary">@color/fd_purple</item>
+        <item name="android:textColorSecondaryInverse">@color/fd_light_grey</item>
+        <item name="colorControlActivated">@color/fd_purple</item>
+        <item name="colorControlHighlight">@color/fd_purple</item>
+        <item name="android:windowBackground">@color/fd_dark_grey_light</item>
+    </style>
+
+    <style name="fd_FloatingActionButton" parent="Widget.MaterialComponents.FloatingActionButton">
+        <item name="backgroundTint">@color/fd_purple</item>
+    </style>
+
+</resources>
